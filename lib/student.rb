@@ -5,7 +5,7 @@ def initialize
 end
 
 def learn(string)
-  @knowledge << (string)
+  @knowledge << (string).to_s
 end  
 
 end
